@@ -1,0 +1,17 @@
+function Solve(val) {
+   var vv = document.getElementById('res');
+   vv.value += val;
+}
+function Result() {
+   var num11 = document.getElementById('res').value;
+   var num22 = eval(num11);
+   document.getElementById('res').value = num22;
+}
+function Clear() {
+   var in = document.getElementById('res');
+   in.value = '';
+}
+function Back() {
+   var evv = document.getElementById('res');
+   evv.value = ev.value.slice(0,-1);
+}
